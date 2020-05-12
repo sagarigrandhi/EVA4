@@ -1,2 +1,2 @@
 # EVA4
-My deep learning solutions for EVA assignments
+My solutions for EVA assignments
