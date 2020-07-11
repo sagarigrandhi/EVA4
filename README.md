@@ -1,4 +1,4 @@
-# EVA4 - TSAI
+# EVA4 
 
 This repository contains the solutions to the assignments of the course **EVA4** conducted by **The School of AI**
 
