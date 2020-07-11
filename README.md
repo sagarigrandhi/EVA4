@@ -10,11 +10,11 @@ Python 101
 
 ### Session 2 - Neural Architecture
 
-First DNN code walkthrough
+Custom CNN code walkthrough
 
 ### Session 3 - Our First Neural Network
 
-First DNN code experiment
+Custom CNN code experimentation
 
 ### Session 4 - Architectural Basics
 
