@@ -22,7 +22,7 @@
 * Batch Size - effects of batch size
 * Learning Rate
 
-[File](https://github.com/sagarigrandhi/EVA4/blob/master/S4/Assignment_4.ipynb)
+[Assignment File](https://github.com/sagarigrandhi/EVA4/blob/master/S4/Assignment_4.ipynb)
 
 Validation Accuracy : 99.4%
 ```
