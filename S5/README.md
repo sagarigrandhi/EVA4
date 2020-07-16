@@ -9,7 +9,7 @@
 
 ## First Model
 
-[File 1(https://github.com/sagarigrandhi/EVA4/blob/master/S5/Assignment_5_F1.ipynb)
+[File 1](https://github.com/sagarigrandhi/EVA4/blob/master/S5/Assignment_5_F1.ipynb)
 
 ### Target
 * Make the model lighter (14,14,20 and repeat)
@@ -26,7 +26,7 @@
 
 ## Second Model
 
-[File 2(https://github.com/sagarigrandhi/EVA4/blob/master/S5/Assignment_5_F2.ipynb)
+[File 2](https://github.com/sagarigrandhi/EVA4/blob/master/S5/Assignment_5_F2.ipynb)
 
 ### Target
 * Add BatchNorm to increase model efficiency.
@@ -44,7 +44,7 @@ Best Test Accuracy: 99.16 (13th epoch)
 
 ## Third Model
 
-[File 3(https://github.com/sagarigrandhi/EVA4/blob/master/S5/Assignment_5_F3.ipynb)
+[File 3](https://github.com/sagarigrandhi/EVA4/blob/master/S5/Assignment_5_F3.ipynb)
 
 ### Target
 * Increase model capacity by adding another layer at the end since mnist can be stopped at 5*5 RF. 
@@ -63,7 +63,7 @@ Best Test Accuracy: 99.18 (7th epoch)
 
 ## Fourth Model
 
-[File 4(https://github.com/sagarigrandhi/EVA4/blob/master/S5/Assignment_5_F4.ipynb)
+[File 4](https://github.com/sagarigrandhi/EVA4/blob/master/S5/Assignment_5_F4.ipynb)
 
 ### Target
 * Peform maxpooling at 5*5 RF.
