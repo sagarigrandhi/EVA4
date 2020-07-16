@@ -18,11 +18,11 @@ PyTorch 101
 
 ### Session 4 - Architectural Basics
 
-Achieve 99.4% validation accuracy on the MNIST dataset using a custom CNN without FC layers in less than 20k parameters and 20 epochs.
+Achieve > 99.4% validation accuracy on the MNIST dataset using a custom CNN without FC layers in less than 20k parameters and 20 epochs.
 
 ### Session 5 - Coding Drill Down
 
-Achieve 99.4% validation accuracy (consistent in the last epochs) on the MNIST dataset using a custom CNN without FC layers in less than 10k parameters and 15 epochs within 5 attempts.
+Achieve > 99.4% validation accuracy (consistent in the last epochs) on the MNIST dataset using a custom CNN without FC layers in less than 10k parameters and 15 epochs within 5 attempts.
 
 ### Session 6 - Batch Normalization & Regularization
 
