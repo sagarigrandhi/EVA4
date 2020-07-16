@@ -10,7 +10,7 @@ Python 101
 
 ### Session 2 - Neural Architecture
 
-Custom CNN experimentation
+Make one change in the model such that it gets up to 97% within 1 epoch!
 
 ### Session 3 - Our First Neural Network
 
