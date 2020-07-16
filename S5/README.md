@@ -17,8 +17,8 @@
  
 ### Results
 * Parameters: 9.1k
-* Training Accuracy: 97.88
-* Test Accuracy: 97.88
+* Training Accuracy: 97.88%
+* Test Accuracy: 97.88%
 
 ### Analysis
 * No overfitting or underfitting (0 diff).
@@ -33,10 +33,10 @@
  
 ### Results
 * Parameters: 9.3k
-* Training Accuracy: 99.38
-* Test Accuracy: 99.04
+* Training Accuracy: 99.38%
+* Test Accuracy: 99.04%
 
-Best Test Accuracy: 99.16 (13th epoch)
+Best Test Accuracy: 99.16% (13th epoch)
 
 ### Analysis
 * Model started overfitting now (0.38 diff). 
@@ -52,10 +52,10 @@ Best Test Accuracy: 99.16 (13th epoch)
  
 ### Results
 * Parameters: 9.7k 
-* Training Accuracy: 99.43
-* Test Accuracy: 99.16
+* Training Accuracy: 99.43%
+* Test Accuracy: 99.16%
 
-Best Test Accuracy: 99.18 (7th epoch)
+Best Test Accuracy: 99.18% (7th epoch)
 
 ### Analysis
 * Overfitting reduced slightly (0.27 diff). 
@@ -71,14 +71,14 @@ Best Test Accuracy: 99.18 (7th epoch)
  
 ### Results
 * Parameters: 9.9k
-* Training Accuracy: 99.46
-* Test Accuracy: 99.34
+* Training Accuracy: 99.46%
+* Test Accuracy: 99.34%
 
-Best Test Accuracy: 99.37 (13th epoch)
+Best Test Accuracy: 99.37% (13th epoch)
 
 ### Analysis
 * Overfitting reduced even more (0.12 diff).We can add a slight rotation to reduce the overfitting.
-* Much better accuracy but we don't see 99.4.
+* Much better accuracy but we don't see 99.45.
 
 ## Fifth Model
 
@@ -89,15 +89,15 @@ Best Test Accuracy: 99.37 (13th epoch)
  
 ### Results
 * Parameters: 9.9k
-* Training Accuracy: 99.20
-* Test Accuracy: 99.51
+* Training Accuracy: 99.20%
+* Test Accuracy: 99.51%
 
-Consistent for 12,13,14 epochs - 99.47, 99.48, 99.51.
+Consistent for 12,13,14 epochs - 99.47%, 99.48%, 99.51%.
 
 ### Analysis
 * Model started underfitting now (0.31 diff). It is fine since we have made it harder to train.
-* Model crossed 99.4. It means that the test images has a few images that had a transformation difference wrt the train images. 
-* Try using LR scheduler to go beyond 99.5.
+* Model crossed 99.4%. It means that the test images has a few images that had a transformation difference wrt the train images. 
+* Try using LR scheduler to go beyond 99.5%.
 
 ## Sixth Model - Additional
 
@@ -108,17 +108,17 @@ Consistent for 12,13,14 epochs - 99.47, 99.48, 99.51.
  
 ### Results
 * Parameters: 9.9k
-* Training Accuracy: 99.24
-* Test Accuracy: 99.52
+* Training Accuracy: 99.24%
+* Test Accuracy: 99.52%
 
-Best Test Accuracy - 99.55 (12th epoch)
+Best Test Accuracy - 99.55% (12th epoch)
 
-Consistent for 12,13,14 epochs - 99.55, 99.53, 99.52
+Consistent for 12,13,14 epochs - 99.55%, 99.53%, 99.52%
 
 ### Analysis
 * Underfitting reduced slightly (0.28 diff).
-* Model crossed 99.5 faster but final accuracy is not more than 99.55.
-* Try using OneCycleLR to reach 99.6.
+* Model crossed 99.5% faster but final accuracy is not more than 99.55%.
+* Try using OneCycleLR to reach 99.6%.
 
 ## Seventh Model - Additional
 
@@ -130,14 +130,14 @@ Consistent for 12,13,14 epochs - 99.55, 99.53, 99.52
  
 ### Results
 * Parameters: 9.9k
-* Training Accuracy: 99.44
-* Test Accuracy: 99.60
+* Training Accuracy: 99.44%
+* Test Accuracy: 99.60%
 
-Best Test Accuracy: 99.61 (12th epoch)
+Best Test Accuracy: 99.61% (12th epoch)
 
-Consistent for 12,13,14 epochs - 99.61, 99.60, 99.60
+Consistent for 12,13,14 epochs - 99.61%, 99.60%, 99.60%
 
 ### Analysis:
 * Underfitting reduced even more (0.16 diff).
-* OneCycleLR worked best. Final accuracy is 99.6.
+* OneCycleLR worked best. Final accuracy is 99.6%.
 * Aim for < 8k parameters.
