@@ -9,7 +9,7 @@
 
 ## First Model
 
-[File 1](https://github.com/sagarigrandhi/EVA4/blob/master/S5/Assignment_5_F1.ipynb)
+[Assignment File 1](https://github.com/sagarigrandhi/EVA4/blob/master/S5/Assignment_5_F1.ipynb)
 
 ### Target
 * Make the model lighter (14,14,20 and repeat)
@@ -26,7 +26,7 @@
 
 ## Second Model
 
-[File 2](https://github.com/sagarigrandhi/EVA4/blob/master/S5/Assignment_5_F2.ipynb)
+[Assignment File 2](https://github.com/sagarigrandhi/EVA4/blob/master/S5/Assignment_5_F2.ipynb)
 
 ### Target
 * Add BatchNorm to increase model efficiency.
@@ -44,7 +44,7 @@ Best Test Accuracy: 99.16% (13th epoch)
 
 ## Third Model
 
-[File 3](https://github.com/sagarigrandhi/EVA4/blob/master/S5/Assignment_5_F3.ipynb)
+[Assignment File 3](https://github.com/sagarigrandhi/EVA4/blob/master/S5/Assignment_5_F3.ipynb)
 
 ### Target
 * Increase model capacity by adding another layer at the end since mnist can be stopped at 5*5 RF. 
@@ -63,7 +63,7 @@ Best Test Accuracy: 99.18% (7th epoch)
 
 ## Fourth Model
 
-[File 4](https://github.com/sagarigrandhi/EVA4/blob/master/S5/Assignment_5_F4.ipynb)
+[Assignment File 4](https://github.com/sagarigrandhi/EVA4/blob/master/S5/Assignment_5_F4.ipynb)
 
 ### Target
 * Peform maxpooling at 5*5 RF.
@@ -82,7 +82,7 @@ Best Test Accuracy: 99.37% (13th epoch)
 
 ## Fifth Model
 
-[File 5](https://github.com/sagarigrandhi/EVA4/blob/master/S5/Assignment_5_F5.ipynb)
+[Assignment File 5](https://github.com/sagarigrandhi/EVA4/blob/master/S5/Assignment_5_F5.ipynb)
 
 ### Target
 * Add rotation, a small amount should be sufficient (10 degrees).
@@ -101,7 +101,7 @@ Consistent for 12,13,14 epochs - 99.47%, 99.48%, 99.51%.
 
 ## Sixth Model - Additional
 
-[File 6](https://github.com/sagarigrandhi/EVA4/blob/master/S5/Assignment_5_F6.ipynb)
+[Assignment File 6](https://github.com/sagarigrandhi/EVA4/blob/master/S5/Assignment_5_F6.ipynb)
 
 ### Target
 * Add LR Scheduler with a step LR, gamma of 0.1 after every 6 steps.
@@ -122,7 +122,7 @@ Consistent for 12,13,14 epochs - 99.55%, 99.53%, 99.52%
 
 ## Seventh Model - Additional
 
-[File 7](https://github.com/sagarigrandhi/EVA4/blob/master/S5/Assignment_5_F7.ipynb)
+[Assignment File 7](https://github.com/sagarigrandhi/EVA4/blob/master/S5/Assignment_5_F7.ipynb)
 
 ### Target
 * Add LR Scheduler - OneCycleLR (total_steps - 15, max_lr - 0.1)
