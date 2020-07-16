@@ -8,7 +8,9 @@
 * One file for each of the 5 steps and must have "target, result, analysis" block
 
 ## First Model
- 
+
+[File 1] (https://github.com/sagarigrandhi/EVA4/blob/master/S5/Assignment_5_F1.ipynb)
+
 ### Target:
 * Make the model lighter (14,14,20 and repeat)
 * Add transition style architecture with GAP followed by 1*1 at the end to reduce the number of parameters.
@@ -23,6 +25,8 @@
 * Good model!. Model can be pushed to get better accuracy.
 
 ## Second Model
+
+[File 2] (https://github.com/sagarigrandhi/EVA4/blob/master/S5/Assignment_5_F2.ipynb)
 
 ### Target:
 * Add BatchNorm to increase model efficiency.
@@ -39,6 +43,8 @@ Best Testing Accuracy: 99.16 (13th epoch)
 * Better accuracy but may need to add more capacity, especially at the end. Since we know that mnist can be stopped at an RF of 5*5.
 
 ## Third Model
+
+[File 3] (https://github.com/sagarigrandhi/EVA4/blob/master/S5/Assignment_5_F3.ipynb)
 
 ### Target:
 * Increase model capacity by adding another layer at the end since mnist can be stopped at 5*5 RF. 
@@ -57,6 +63,8 @@ Best Testing Accuracy: 99.18 (7th epoch)
 
 ## Fourth Model
 
+[File 4] (https://github.com/sagarigrandhi/EVA4/blob/master/S5/Assignment_5_F4.ipynb)
+
 ### Target: 
 * Peform maxpooling at 5*5 RF.
 * Changed pattern to 10,30,10,14,14,14 pattern to get < 10k parameters.
@@ -74,6 +82,8 @@ Best Testing Accuracy: 99.37 (13th epoch)
 
 ## Fifth Model
 
+[File 5] (https://github.com/sagarigrandhi/EVA4/blob/master/S5/Assignment_5_F5.ipynb)
+
 ### Target:
 * Add rotation, a small amount should be sufficient (10 degrees).
  
@@ -90,6 +100,8 @@ Consistent for 12,13,14 epochs - 99.47, 99.48, 99.51.
 * Try using LR scheduler to go beyond 99.5.
 
 ## Sixth Model - Additional
+
+[File 6] (https://github.com/sagarigrandhi/EVA4/blob/master/S5/Assignment_5_F6.ipynb)
 
 ### Target:
 * Add LR Scheduler with a step LR, gamma of 0.1 after every 6 steps.
@@ -109,6 +121,9 @@ Consistent for 12,13,14 epochs - 99.55, 99.53, 99.52
 * Try using OneCycleLR to reach 99.6.
 
 ## Seventh Model - Additional
+
+[File 7] (https://github.com/sagarigrandhi/EVA4/blob/master/S5/Assignment_5_F7.ipynb)
+
 ### Target:
 * Add LR Scheduler - OneCycleLR (total_steps - 15, max_lr - 0.1)
 * Change batch size to 32 to improve the test accuracy.
