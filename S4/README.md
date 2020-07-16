@@ -24,13 +24,13 @@
 
 [File](https://github.com/sagarigrandhi/EVA4/blob/master/S4/Assignment_4.ipynb)
 
-* Validation Accuracy : 99.4%
+Validation Accuracy : 99.4%
 ```
 Epoch: 19
 Test set: Average loss: 0.0200, Accuracy: 9938/10000 (99.4%)
 
 ```
-* Total Parameters: 12.5k
+Total Parameters: 12.5k
 
 ```
 ----------------------------------------------------------------
@@ -57,6 +57,84 @@ Trainable params: 12,514
 Non-trainable params: 0
 ----------------------------------------------------------------
 ```
+No of epochs: 19
+```
+  0%|          | 0/1875 [00:00<?, ?it/s]
+/usr/local/lib/python3.6/dist-packages/ipykernel_launcher.py:28: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+loss=0.11956486105918884 batch_id=1874: 100%|██████████| 1875/1875 [00:21<00:00, 87.16it/s]
+  0%|          | 0/1875 [00:00<?, ?it/s]
+Test set: Average loss: 0.0935, Accuracy: 9723/10000 (97.2%)
 
-* No of epochs: 19
-* No Fully Connected Layer
+loss=0.009263277053833008 batch_id=1874: 100%|██████████| 1875/1875 [00:21<00:00, 89.17it/s]
+  0%|          | 0/1875 [00:00<?, ?it/s]
+Test set: Average loss: 0.0469, Accuracy: 9858/10000 (98.6%)
+
+loss=0.0057594627141952515 batch_id=1874: 100%|██████████| 1875/1875 [00:21<00:00, 87.83it/s]
+  0%|          | 0/1875 [00:00<?, ?it/s]
+Test set: Average loss: 0.0370, Accuracy: 9889/10000 (98.9%)
+
+loss=0.03366020321846008 batch_id=1874: 100%|██████████| 1875/1875 [00:20<00:00, 89.37it/s]
+  0%|          | 0/1875 [00:00<?, ?it/s]
+Test set: Average loss: 0.0360, Accuracy: 9889/10000 (98.9%)
+
+loss=0.002917453646659851 batch_id=1874: 100%|██████████| 1875/1875 [00:21<00:00, 89.20it/s]
+  0%|          | 0/1875 [00:00<?, ?it/s]
+Test set: Average loss: 0.0273, Accuracy: 9907/10000 (99.1%)
+
+loss=0.02572450041770935 batch_id=1874: 100%|██████████| 1875/1875 [00:20<00:00, 89.56it/s]
+  0%|          | 0/1875 [00:00<?, ?it/s]
+Test set: Average loss: 0.0275, Accuracy: 9913/10000 (99.1%)
+
+loss=0.00375249981880188 batch_id=1874: 100%|██████████| 1875/1875 [00:21<00:00, 88.65it/s]
+  0%|          | 0/1875 [00:00<?, ?it/s]
+Test set: Average loss: 0.0272, Accuracy: 9913/10000 (99.1%)
+
+loss=0.027218297123908997 batch_id=1874: 100%|██████████| 1875/1875 [00:20<00:00, 89.35it/s]
+  0%|          | 0/1875 [00:00<?, ?it/s]
+Test set: Average loss: 0.0242, Accuracy: 9923/10000 (99.2%)
+
+loss=0.001628786325454712 batch_id=1874: 100%|██████████| 1875/1875 [00:20<00:00, 89.73it/s]
+  0%|          | 0/1875 [00:00<?, ?it/s]
+Test set: Average loss: 0.0252, Accuracy: 9917/10000 (99.2%)
+
+loss=0.024715274572372437 batch_id=1874: 100%|██████████| 1875/1875 [00:21<00:00, 88.82it/s]
+  0%|          | 0/1875 [00:00<?, ?it/s]
+Test set: Average loss: 0.0243, Accuracy: 9929/10000 (99.3%)
+
+loss=0.06545257568359375 batch_id=1874: 100%|██████████| 1875/1875 [00:21<00:00, 88.87it/s]
+  0%|          | 0/1875 [00:00<?, ?it/s]
+Test set: Average loss: 0.0240, Accuracy: 9927/10000 (99.3%)
+
+loss=0.01260325312614441 batch_id=1874: 100%|██████████| 1875/1875 [00:21<00:00, 89.23it/s]
+  0%|          | 0/1875 [00:00<?, ?it/s]
+Test set: Average loss: 0.0251, Accuracy: 9917/10000 (99.2%)
+
+loss=0.00449785590171814 batch_id=1874: 100%|██████████| 1875/1875 [00:20<00:00, 90.36it/s]
+  0%|          | 0/1875 [00:00<?, ?it/s]
+Test set: Average loss: 0.0255, Accuracy: 9924/10000 (99.2%)
+
+loss=0.006565719842910767 batch_id=1874: 100%|██████████| 1875/1875 [00:20<00:00, 90.02it/s]
+  0%|          | 0/1875 [00:00<?, ?it/s]
+Test set: Average loss: 0.0237, Accuracy: 9934/10000 (99.3%)
+
+loss=0.002406895160675049 batch_id=1874: 100%|██████████| 1875/1875 [00:20<00:00, 89.94it/s]
+  0%|          | 0/1875 [00:00<?, ?it/s]
+Test set: Average loss: 0.0203, Accuracy: 9937/10000 (99.4%)
+
+loss=0.0003854036331176758 batch_id=1874: 100%|██████████| 1875/1875 [00:20<00:00, 89.38it/s]
+  0%|          | 0/1875 [00:00<?, ?it/s]
+Test set: Average loss: 0.0215, Accuracy: 9935/10000 (99.3%)
+
+loss=0.002652466297149658 batch_id=1874: 100%|██████████| 1875/1875 [00:21<00:00, 88.79it/s]
+  0%|          | 0/1875 [00:00<?, ?it/s]
+Test set: Average loss: 0.0234, Accuracy: 9926/10000 (99.3%)
+
+loss=0.0019318163394927979 batch_id=1874: 100%|██████████| 1875/1875 [00:20<00:00, 89.39it/s]
+  0%|          | 0/1875 [00:00<?, ?it/s]
+Test set: Average loss: 0.0214, Accuracy: 9934/10000 (99.3%)
+
+loss=0.010960191488265991 batch_id=1874: 100%|██████████| 1875/1875 [00:20<00:00, 89.95it/s]
+
+Test set: Average loss: 0.0200, Accuracy: 9938/10000 (99.4%)
+```
+No Fully Connected Layer
