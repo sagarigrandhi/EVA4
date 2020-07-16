@@ -1,4 +1,4 @@
-# Session 5 Assignment:
+# Session 5 Assignment
 
 * 99.4% validation accuracy (consistent in the last few epochs not a one-time achievement)
 * Less than 10k parameters
