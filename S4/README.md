@@ -6,21 +6,21 @@
 * No fully connected layer
 
 ##  Architectural Basics 
-* Layers to add in a network 
-* Receptive Field
-* 3x3 Convolutions
-* MaxPooling - position, distance from prediction
-* No of channels
 * Image Normalization
-* 1x1 Convolutions - position
+* Batch Size - effects of batch size
+* Receptive Field
+* Layers to add in a network 
 * Transition layers - position
-* Softmax
+* No of channels
+* 3x3 Convolutions
+* 1x1 Convolutions - position
 * Batch Normalization - position, distance from prediction
 * Dropout - position, distance from the prediction
+* MaxPooling - position, distance from prediction
 * Larger kernel or alternatives - When to stop convolutions and go ahead
-* Performance - How do we know network is not doing well, comparatively, very early
-* Batch Size - effects of batch size
+* Softmax
 * Learning Rate
+* Performance - How do we know network is not doing well, comparatively, very early
 
 [Assignment File](https://github.com/sagarigrandhi/EVA4/blob/master/S4/Assignment_4.ipynb)
 
@@ -30,7 +30,7 @@ Epoch: 19
 Test set: Average loss: 0.0200, Accuracy: 9938/10000 (99.4%)
 
 ```
-Total Parameters: 12.5k
+Total Parameters: 12.5k, Architecture: No fully connected layers
 
 ```
 ----------------------------------------------------------------
@@ -137,4 +137,3 @@ loss=0.010960191488265991 batch_id=1874: 100%|██████████| 18
 
 Test set: Average loss: 0.0200, Accuracy: 9938/10000 (99.4%)
 ```
-No Fully Connected Layer
