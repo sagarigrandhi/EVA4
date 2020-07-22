@@ -30,7 +30,7 @@ Epoch: 19
 Test set: Average loss: 0.0200, Accuracy: 9938/10000 (99.4%)
 
 ```
-Total Parameters: 12.5k, Architecture: No fully connected layers
+Total Parameters: 12.5k
 
 ```
 ----------------------------------------------------------------
@@ -136,4 +136,8 @@ Test set: Average loss: 0.0214, Accuracy: 9934/10000 (99.3%)
 loss=0.010960191488265991 batch_id=1874: 100%|██████████| 1875/1875 [00:20<00:00, 89.95it/s]
 
 Test set: Average loss: 0.0200, Accuracy: 9938/10000 (99.4%)
+```
+```
+Architecture: (to be done!)
+INPUT -> [[CONV(k=3,s=1,p=0) -> BN]
 ```
