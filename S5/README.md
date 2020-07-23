@@ -139,6 +139,21 @@ Consistent for 12,13,14 epochs - 99.61%, 99.60%, 99.60%
 * OneCycleLR worked best. Final accuracy is 99.6%.
 * Aim for <8k parameters.
 
+## Receptive Field Calculations
+
+Layer	| Nin |	k	| p | s |	Nout | jout |	RF
+----- |-----|---|---|---|----- |----- |---
+input|	28|	0|	0|	0|	|	1|	1|
+c1|	28|	3|	0|	1|	26|	1|	3|
+c2|	26|	3|	0|	1|	24|	1|	5|
+c3|	24|	3|	0|	1|	22|	1|	7|
+p1|	22|	2|	0|	2|	11|	2|	9|
+c4|	11|	1|	0|	1|	11|	2|	9|
+c5|	11|	3|	0|	1|	9|	2|	13|
+c6|	9|	3|	0|	1|	7|	2|	17|
+c7|	7|	3|	0|	1|	5|	2|	21|
+c8|	5|	5|	0|	1|	1|	2|	29|
+
 ## Conclusion
 
 The number of parameters now are 9.9k. Further we can aim to reduce the parameters to less than 8k and try to achieve the objective.
