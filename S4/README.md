@@ -1,5 +1,7 @@
 # Session 4 Assignment
 
+## Objective
+
 * 99.4% validation accuracy
 * Less than 20k parameters
 * Less than 20 epochs
