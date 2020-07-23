@@ -25,11 +25,12 @@
 [Assignment File](https://github.com/sagarigrandhi/EVA4/blob/master/S4/Assignment_4.ipynb)
 
 Validation Accuracy : 99.4%
+
 ```
 Epoch: 19
 Test set: Average loss: 0.0200, Accuracy: 9938/10000 (99.4%)
-
 ```
+
 Total Parameters: 12.5k
 
 ```
@@ -57,7 +58,9 @@ Trainable params: 12,514
 Non-trainable params: 0
 ----------------------------------------------------------------
 ```
+
 No of epochs: 19
+
 ```
   0%|          | 0/1875 [00:00<?, ?it/s]
 /usr/local/lib/python3.6/dist-packages/ipykernel_launcher.py:28: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
@@ -137,7 +140,8 @@ loss=0.010960191488265991 batch_id=1874: 100%|██████████| 18
 
 Test set: Average loss: 0.0200, Accuracy: 9938/10000 (99.4%)
 ```
+Architecture: No Fully Connected Layer
+
 ```
-Architecture: (to be done!)
-INPUT -> [[CONV(k=3,s=1,p=0) -> BN]
+INPUT -> [[CONV(k=3,s=1,p=0) -> BN -> RELU]*3 -> POOL(2*2)] -> [CONV(k=1,s=1,p=0) -> BN -> RELU] -> [[CONV(k=3,s=1,p=0) -> BN -> RELU]*2] -> GAP -> [CONV(k=1,s=1,p=0)] -> LOG_SOFTMAX 
 ```
