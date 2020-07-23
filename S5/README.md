@@ -1,5 +1,7 @@
 # Session 5 Assignment
 
+## Objective
+
 * 99.4% validation accuracy (consistent in the last few epochs not a one-time achievement)
 * Less than 10k parameters
 * Less than or equal to 15 epochs
@@ -7,20 +9,22 @@
 * Keep Receptive Field calculations handy for each of the models
 * One file for each of the 5 steps and must have "target, result, analysis" block
 
-## First Model
+## Results
+
+### First Model
 
 [Assignment File 1](https://github.com/sagarigrandhi/EVA4/blob/master/S5/Assignment_5_F1.ipynb)
 
-### Target
+#### Target
 * Make the model lighter (14,14,20 and repeat)
 * Add transition style architecture with GAP followed by 1*1 at the end to reduce the number of parameters.
  
-### Results
+#### Results
 * Parameters: 9.1k
 * Training Accuracy: 97.88%
 * Test Accuracy: 97.88%
 
-### Analysis
+#### Analysis
 * No overfitting or underfitting (0 diff).
 * Good model!. Model can be pushed to get better accuracy.
 
@@ -140,4 +144,8 @@ Consistent for 12,13,14 epochs - 99.61%, 99.60%, 99.60%
 ### Analysis:
 * Underfitting reduced even more (0.16 diff).
 * OneCycleLR worked best. Final accuracy is 99.6%.
-* Aim for < 8k parameters.
+* Aim for <8k parameters.
+
+## Conclusion
+
+The number of parameters now are 9.9k. Further we can aim to reduce the parameters to less than 8k and try to achieve the objective.
