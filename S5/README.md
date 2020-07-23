@@ -148,12 +148,12 @@ convblock1|	28|	3|	0|	1|	26|	1|	3|
 convblock2|	26|	3|	0|	1|	24|	1|	5|
 convblock3|	24|	1|	0|	1|	24|	1|	5|
 pool1|	24|	2|	0|	2|	12|	2|	6|
-convblock4|	12|	1|	0|	1|	10|	2|	6|
-convblock5|	10|	3|	0|	1|	8|	2|	10|
-convblock6|	8|	3|	0|	1|	6|	2|	14|
-convblock7|	6|	3|	0|	1|	6|	2|	18|
-gap|	6|	3|	0|	1|	1|	2|	28|
-convblock8|	1|	1|	0|	1|	1|	2|	28|
+convblock4|	12|	3|	0|	1|	10|	2|	10|
+convblock5|	10|	3|	0|	1|	8|	2|	14|
+convblock6|	8|	3|	0|	1|	6|	2|	18|
+convblock7|	6|	3|	1|	1|	6|	2|	22|
+gap|	6|	6|	0|	1|	1|	2|	32|
+convblock8|	1|	1|	0|	1|	1|	2|	32|
 
 ## Conclusion
 
