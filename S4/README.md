@@ -6,6 +6,7 @@
 * No fully connected layer
 
 ##  Architectural Basics 
+
 * Image Normalization
 * Batch Size - effects of batch size
 * Receptive Field
@@ -21,6 +22,8 @@
 * Softmax
 * Learning Rate
 * Performance - How do we know network is not doing well, comparatively, very early
+
+## Results
 
 [Assignment File](https://github.com/sagarigrandhi/EVA4/blob/master/S4/Assignment_4.ipynb)
 
@@ -145,3 +148,7 @@ Architecture: No Fully Connected Layer, Bias is included.
 ```
 INPUT -> [[CONV(k=3,s=1,p=0) -> BN -> RELU]*3 -> POOL(2*2)] -> [CONV(k=1,s=1,p=0) -> BN -> RELU] -> [[CONV(k=3,s=1,p=0) -> BN -> RELU]*2] -> GAP -> [CONV(k=1,s=1,p=0)] -> LOG_SOFTMAX 
 ```
+
+## Conclusion
+
+Only the last epoch shows 99.4% accuracy. Inorder to have consistency in the last 3 epochs, the position of pooling, number of channels in the architecture are some of the things that can be changed. 
