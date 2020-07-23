@@ -8,9 +8,9 @@
 ##  Architectural Basics 
 
 * Image Normalization
-* Batch Size - effects of batch size
+* Batch Size - it's effects
 * Receptive Field
-* Layers to add in a network 
+* Network layers 
 * Transition layers - position
 * No of channels
 * 3x3 Convolutions
