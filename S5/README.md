@@ -139,20 +139,21 @@ Consistent for 12,13,14 epochs - 99.61%, 99.60%, 99.60%
 * OneCycleLR worked best. Final accuracy is 99.6%.
 * Aim for <8k parameters.
 
-## Receptive Field Calculations
+## Receptive Field 
 
-Layer	| Nin |	k	| p | s |	Nout | jout |	RF
+Layer	| Nin |	k	| p | s |	Nout | Jout |	Rout
 ----- |-----|---|---|---|----- |----- |---
 input|	0|	0|	0|	0|	28|	1|	1|
-c1|	28|	3|	0|	1|	26|	1|	3|
-c2|	26|	3|	0|	1|	24|	1|	5|
-c3|	24|	3|	0|	1|	22|	1|	7|
-p1|	22|	2|	0|	2|	11|	2|	9|
-c4|	11|	1|	0|	1|	11|	2|	9|
-c5|	11|	3|	0|	1|	9|	2|	13|
-c6|	9|	3|	0|	1|	7|	2|	17|
-c7|	7|	3|	0|	1|	5|	2|	21|
-c8|	5|	5|	0|	1|	1|	2|	29|
+convblock1|	28|	3|	0|	1|	26|	1|	3|
+convblock2|	26|	3|	0|	1|	24|	1|	5|
+convblock3|	24|	1|	0|	1|	24|	1|	5|
+pool1|	24|	2|	0|	2|	12|	2|	6|
+convblock4|	12|	1|	0|	1|	10|	2|	6|
+convblock5|	10|	3|	0|	1|	8|	2|	10|
+convblock6|	8|	3|	0|	1|	6|	2|	14|
+convblock7|	6|	3|	0|	1|	6|	2|	18|
+gap|	6|	3|	0|	1|	1|	2|	28|
+convblock8|	1|	1|	0|	1|	1|	2|	28|
 
 ## Conclusion
 
