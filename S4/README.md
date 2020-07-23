@@ -140,7 +140,7 @@ loss=0.010960191488265991 batch_id=1874: 100%|██████████| 18
 
 Test set: Average loss: 0.0200, Accuracy: 9938/10000 (99.4%)
 ```
-Architecture: No Fully Connected Layer
+Architecture: No Fully Connected Layer, Bias is included. 
 
 ```
 INPUT -> [[CONV(k=3,s=1,p=0) -> BN -> RELU]*3 -> POOL(2*2)] -> [CONV(k=1,s=1,p=0) -> BN -> RELU] -> [[CONV(k=3,s=1,p=0) -> BN -> RELU]*2] -> GAP -> [CONV(k=1,s=1,p=0)] -> LOG_SOFTMAX 
