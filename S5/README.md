@@ -12,7 +12,6 @@
 ## Results
 
 ### First Model
-
 [Assignment File 1](https://github.com/sagarigrandhi/EVA4/blob/master/S5/Assignment_5_F1.ipynb)
 
 #### Target
@@ -29,7 +28,6 @@
 * Good model!. Model can be pushed to get better accuracy.
 
 ### Second Model
-
 [Assignment File 2](https://github.com/sagarigrandhi/EVA4/blob/master/S5/Assignment_5_F2.ipynb)
 
 #### Target
@@ -47,7 +45,6 @@ Best Test Accuracy: 99.16% (13th epoch)
 * Better accuracy but may need to add more capacity, especially at the end. Since we know that mnist can be stopped at an RF of 5*5.
 
 ### Third Model
-
 [Assignment File 3](https://github.com/sagarigrandhi/EVA4/blob/master/S5/Assignment_5_F3.ipynb)
 
 #### Target
@@ -66,7 +63,6 @@ Best Test Accuracy: 99.18% (7th epoch)
 * Accuracy improved slightly, we may want to change the position of maxpooling as a closer analysis of MNIST reveals that just at RF of 5x5 we start to see patterns forming. 
 
 ### Fourth Model
-
 [Assignment File 4](https://github.com/sagarigrandhi/EVA4/blob/master/S5/Assignment_5_F4.ipynb)
 
 #### Target
@@ -85,7 +81,6 @@ Best Test Accuracy: 99.37% (13th epoch)
 * Much better accuracy but we don't see 99.45.
 
 ### Fifth Model
-
 [Assignment File 5](https://github.com/sagarigrandhi/EVA4/blob/master/S5/Assignment_5_F5.ipynb)
 
 #### Target
@@ -104,7 +99,6 @@ Consistent for 12,13,14 epochs - 99.47%, 99.48%, 99.51%.
 * Try using LR scheduler to go beyond 99.5%.
 
 ### Sixth Model - Additional
-
 [Assignment File 6](https://github.com/sagarigrandhi/EVA4/blob/master/S5/Assignment_5_F6.ipynb)
 
 #### Target
@@ -125,7 +119,6 @@ Consistent for 12,13,14 epochs - 99.55%, 99.53%, 99.52%
 * Try using OneCycleLR to reach 99.6%.
 
 ### Seventh Model - Additional
-
 [Assignment File 7](https://github.com/sagarigrandhi/EVA4/blob/master/S5/Assignment_5_F7.ipynb)
 
 #### Target
