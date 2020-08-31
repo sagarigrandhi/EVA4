@@ -1,5 +1,5 @@
 # Validation Loss and Accuracy
-[Validation Loss and Accuracy](https://github.com/sagarigrandhi/EVA4/blob/master/S6/validation_loss_accuracy.png)
+![Validation Loss and Accuracy](https://github.com/sagarigrandhi/EVA4/blob/master/S6/validation_loss_accuracy.png)
 
 # Misclassified Images
 
