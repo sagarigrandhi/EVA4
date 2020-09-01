@@ -6,8 +6,8 @@
   2. with L1
   3. with L2
   4. with L1 and L2
-* draw 2 graphs to show the validation accuracy and loss change with proper legend, title etc. 
-* find any 25 misclassified images for L1 and L2 models. The actual and predicted class names must be shown.
+* Draw 2 graphs to show the validation accuracy and loss change with proper legends, titles etc. 
+* Find any 25 misclassified images for L1 and L2 models. The actual and predicted class names must be shown.
 * All the images must be available on the Readme page. 
 
 ## Results
