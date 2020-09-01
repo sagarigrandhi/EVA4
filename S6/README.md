@@ -1,7 +1,7 @@
 # Session 6 Assignment
 
 ## Objective
-* Take the 5th code and run the model for 40 epochs 
+* Take the 5th code and run the model for 40 epochs for each: 
   1. without L1/L2 
   2. with L1
   3. with L2
