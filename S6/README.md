@@ -24,7 +24,7 @@
 | With L1 and L2 Regularization (lambda1 = 1e-6, lamda2 = 3e-5) | 99.57 | 99.43 |
 
 ### Effect of L1 and L2 Regularization on Test Loss and Accuracy
-![Validation Loss and Accuracy](https://github.com/sagarigrandhi/EVA4/blob/master/S6/Results/train_test_loss_accuracy.png)
+![Validation Loss and Accuracy](https://github.com/sagarigrandhi/EVA4/blob/master/S6/Results/test_loss_accuracy.png)
 
 ### 25 Misclassified Images of the Models
 #### Misclassified Images of the L1-Regularized Model
