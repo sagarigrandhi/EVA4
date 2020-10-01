@@ -27,7 +27,10 @@
 ![Validation Loss and Accuracy](https://github.com/sagarigrandhi/EVA4/blob/master/S6/Results/train_test_loss_accuracy.png)
 
 ### 25 Misclassified Images of the Models
+#### Misclassified Images of the L1-Regularized Model
 ![L1 Misclassified Images](https://github.com/sagarigrandhi/EVA4/blob/master/S6/Results/L1_misclassified_images.png)
+
+#### Misclassified Images of the L2-Regularized Model
 ![L2 Misclassified Images](https://github.com/sagarigrandhi/EVA4/blob/master/S6/Results/L2_misclassified_images.png)
 
 ## Conclusion
