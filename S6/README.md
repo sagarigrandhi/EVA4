@@ -28,7 +28,6 @@
 
 ### 25 Misclassified Images of the Models
 ![L1 Misclassified Images](https://github.com/sagarigrandhi/EVA4/blob/master/S6/Results/L1_misclassified_images.png)
-
 ![L2 Misclassified Images](https://github.com/sagarigrandhi/EVA4/blob/master/S6/Results/L2_misclassified_images.png)
 
 ## Conclusion
