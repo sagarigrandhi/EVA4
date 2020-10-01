@@ -27,13 +27,9 @@
 ![Validation Loss and Accuracy](https://github.com/sagarigrandhi/EVA4/blob/master/S6/Results/train_test_loss_accuracy.png)
 
 ### 25 Misclassified Images of the Models
-![Misclassified Images without L1/L2](https://github.com/sagarigrandhi/EVA4/blob/master/S6/Results/WO_L1_L2_misclassified_images.png)
-
 ![L1 Misclassified Images](https://github.com/sagarigrandhi/EVA4/blob/master/S6/Results/L1_misclassified_images.png)
 
 ![L2 Misclassified Images](https://github.com/sagarigrandhi/EVA4/blob/master/S6/Results/L2_misclassified_images.png)
-
-![Misclassified Images with L1 and L2](https://github.com/sagarigrandhi/EVA4/blob/master/S6/Results/W_L1_L2_misclassified_images.png)
 
 ## Conclusion
 1. While the values for the regularization parameters of L1 and L2 regularization were chosen manually by repeatedly testing whether each of the values reduced the test loss, a better approach of tuning these hyperparameters can be done by using grid search.
