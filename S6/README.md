@@ -26,6 +26,10 @@
 ### Effect of L1 and L2 Regularization on Test Loss and Accuracy
 ![Validation Loss and Accuracy](https://github.com/sagarigrandhi/EVA4/blob/master/S6/Results/test_loss_accuracy.png)
 
+### Performance Comparison of the Models
+
+The current model does not require any regularization. With regularization, the gap between training accuracy and test accuracy should reduce. But from the comparison of the differences between training and test accuracy for all the models, we see that the model without L1 or L2 regularization performs much better with a small difference (0.11). By adding L1 or L2 regularization, we see that from the loss and accuracy graphs, loss seems to be fluctuating at the same plateau and accuracy does not increase. This implies that the model is already performing well and L1 or L2 regularization does not seem to have any impact on this model. 
+
 ### 25 Misclassified Images of the Models
 #### Misclassified Images of the L1-Regularized Model
 ![L1 Misclassified Images](https://github.com/sagarigrandhi/EVA4/blob/master/S6/Results/L1_misclassified_images.png)
