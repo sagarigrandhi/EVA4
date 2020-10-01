@@ -13,7 +13,7 @@
 ### Analysis of the regularization parameters for L1 and L2 Regularization
 1. The regularization parameter (lamda1) for L1 was chosen to be 1e-6 as this value had the least test loss and also the loss curve was smooth.
 
-2.The regularization parameter (lamda2) for L2 was chosen to be 3e-5 as this value had the least test loss and also the loss curve was smooth.
+2. The regularization parameter (lamda2) for L2 was chosen to be 3e-5 as this value had the least test loss and also the loss curve was smooth.
 
 ### Train and Test Accuracy of the Models
 | Models | Train Accuracy (%) | Test Accuracy (%) |
