@@ -38,6 +38,6 @@ The current model does not require any regularization. With regularization, the 
 ![L2 Misclassified Images](https://github.com/sagarigrandhi/EVA4/blob/master/S6/Results/L2_misclassified_images.png)
 
 ## Conclusion
-1. While the values for the regularization parameters of L1 and L2 regularization were chosen manually by repeatedly testing whether each of the values reduced the test loss, a better approach of tuning these hyperparameters can be done by using grid search.
+1. While the values for the regularization parameters of L1 and L2 models were chosen manually by repeatedly testing whether each of the values reduced the test loss, a better approach of tuning these hyperparameters can be done by using grid search.
 
 2. Visualizing the misclassified images give us information of the kind of images that the model fails on. Based on this information, additional measures can be taken while training such as adding different data augmentation strategies to include similar images in the training set. 
