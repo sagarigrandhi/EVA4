@@ -1,6 +1,6 @@
-# EVA4 
+# EVA4_2020 
 
-This repository contains the solutions to the assignments of the course **EVA4** conducted by **The School of AI**
+This repository contains the solutions to the assignments of the course **EVA4** 2020 version conducted by **The School of AI**
 
 ## Contents
 
