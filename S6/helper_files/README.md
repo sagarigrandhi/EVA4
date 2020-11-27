@@ -1,4 +1,4 @@
-This directory includes all the custom modules that are imported in the Assignment_6_API.ipynb. The details of the modules are as follows:
+This directory includes all the custom modules that are imported in the Assignment_6.ipynb. The details of the modules are as follows:
 1. cuda_setup.py - Checks whether the GPU is available and sets it up.
 2. loaders.py - Downloads the dataset, applies transforms, splits the data into training and test sets and sets up the dataloaders.
 3. models.py - Defines the model architecture.
