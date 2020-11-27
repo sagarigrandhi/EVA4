@@ -28,6 +28,8 @@ Assignment - Achieve > 99.4% validation accuracy (consistent in the last epochs)
 Assignment - Apply L1 and L2 regularization on Session 5 code and compare the performance of the models.
 
 ### Session 7 - Advanced Convolutions
+Assignment - Achieve > 80% validation accuracy on the CIFAR-10 dataset using a custom CNN with 3 maxpooling layers, a depthwise separable convolution layer, a dilated convolution layer, GAP using GPU in less than 1M parameters with a total RF > 44.  
 
+### Session 8 - Receptive Fields and Network Architectures
 
 
