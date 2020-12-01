@@ -14,7 +14,7 @@ Fix the code such that:
 
 ## Results
 
-[Assignment File] (https://github.com/sagarigrandhi/EVA4/blob/master/S7/Assignment_7.ipynb)
+[Assignment File](https://github.com/sagarigrandhi/EVA4/blob/master/S7/Assignment_7.ipynb)
 
 
 ### Architecture, Parameters and Hyperparameters:
@@ -95,9 +95,24 @@ Hyperparameters:
 
 ### Receptive Field
 
+Layer	| Nin |	k	| p | s |	Nout | Jout |	Rout
+----- |-----|---|---|---|----- |----- |---
+input|	0|	0|	0|	0|	28|	1|	1|
+convblock1|	28|	3|	0|	1|	26|	1|	3|
+convblock2|	26|	3|	0|	1|	24|	1|	5|
+convblock3|	24|	1|	0|	1|	24|	1|	5|
+pool1|	24|	2|	0|	2|	12|	2|	6|
+convblock4|	12|	3|	0|	1|	10|	2|	10|
+convblock5|	10|	3|	0|	1|	8|	2|	14|
+convblock6|	8|	3|	0|	1|	6|	2|	18|
+convblock7|	6|	3|	1|	1|	6|	2|	22|
+gap|	6|	6|	0|	1|	1|	2|	32|
+convblock8|	1|	1|	0|	1|	1|	2|	32|
+
+
 ### Train/Test Performance
 
-Test Accuracy: 86-88%
+Test Accuracy: 86 to 88%
 ```
 Epoch : 10/10, Batch_id : 390, Training Loss : 0.2300,  Training Accuracy : 90.06%: 100%|██████████| 391/391 [00:46<00:00,  8.48it/s]
 
@@ -128,4 +143,4 @@ Accuracy of truck : 93 %
 ```
 
 ## Conclusion
-By using extensive data augmentation techniques and increasing the number of epochs the accuracy can be increased further.
+
