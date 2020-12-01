@@ -5,5 +5,5 @@ This directory includes all the custom modules that are imported in the Assignme
 4. regularization.py - Includes the different types of regularization.
 5. training.py - Defines the training method.
 6. testing.py - Defines the testing method.
-7. loss_accuracy.py - Plots the loss and accuracy graphs for the training and test set.
+7. loss_accuracy.py - Plots the loss and accuracy graphs for the test set.
 8. misclassified_images.py - Displays the images that have been misclassified by the model.
