@@ -12,7 +12,8 @@ Fix the code such that:
 * Total parameters must be less than 1M.
 
 ## Results
-Assignment File
+[Assignment File] (https://github.com/sagarigrandhi/EVA4/blob/master/S7/Assignment_7.ipynb)
+
 
 ### Parameters and Hyperparameters - 
 * Loss function - Cross-entropy loss
@@ -21,13 +22,71 @@ Assignment File
 * Learning rate - 0.01
 * Weight decay - 0.0003
 * Dropout - None
-* Parameters - 439k
 * Receptive field - 98
 * Epochs - 10
 * Training Accuracy - 89.70%
 * Validation Accuracy - 87.47%
 
-### Parameters 
+Parameters: 439k
+
+```
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+            Conv2d-1           [-1, 64, 32, 32]           1,728
+       BatchNorm2d-2           [-1, 64, 32, 32]             128
+              ReLU-3           [-1, 64, 32, 32]               0
+            Conv2d-4           [-1, 64, 32, 32]          36,864
+       BatchNorm2d-5           [-1, 64, 32, 32]             128
+              ReLU-6           [-1, 64, 32, 32]               0
+            Conv2d-7          [-1, 128, 32, 32]          73,728
+       BatchNorm2d-8          [-1, 128, 32, 32]             256
+              ReLU-9          [-1, 128, 32, 32]               0
+           Conv2d-10           [-1, 64, 32, 32]           8,192
+      BatchNorm2d-11           [-1, 64, 32, 32]             128
+             ReLU-12           [-1, 64, 32, 32]               0
+        MaxPool2d-13           [-1, 64, 16, 16]               0
+           Conv2d-14           [-1, 64, 16, 16]          36,864
+      BatchNorm2d-15           [-1, 64, 16, 16]             128
+             ReLU-16           [-1, 64, 16, 16]               0
+           Conv2d-17          [-1, 128, 16, 16]          73,728
+      BatchNorm2d-18          [-1, 128, 16, 16]             256
+             ReLU-19          [-1, 128, 16, 16]               0
+           Conv2d-20           [-1, 64, 16, 16]           8,192
+      BatchNorm2d-21           [-1, 64, 16, 16]             128
+             ReLU-22           [-1, 64, 16, 16]               0
+        MaxPool2d-23             [-1, 64, 8, 8]               0
+           Conv2d-24             [-1, 64, 8, 8]          36,864
+      BatchNorm2d-25             [-1, 64, 8, 8]             128
+             ReLU-26             [-1, 64, 8, 8]               0
+           Conv2d-27            [-1, 128, 8, 8]          73,728
+      BatchNorm2d-28            [-1, 128, 8, 8]             256
+             ReLU-29            [-1, 128, 8, 8]               0
+           Conv2d-30             [-1, 64, 8, 8]           8,192
+      BatchNorm2d-31             [-1, 64, 8, 8]             128
+             ReLU-32             [-1, 64, 8, 8]               0
+        MaxPool2d-33             [-1, 64, 4, 4]               0
+           Conv2d-34             [-1, 64, 4, 4]             576
+           Conv2d-35             [-1, 64, 4, 4]           4,096
+depthwise_separable_conv-36      [-1, 64, 4, 4]               0
+      BatchNorm2d-37             [-1, 64, 4, 4]             128
+             ReLU-38             [-1, 64, 4, 4]               0
+           Conv2d-39            [-1, 128, 4, 4]          73,728
+      BatchNorm2d-40            [-1, 128, 4, 4]             256
+             ReLU-41            [-1, 128, 4, 4]               0
+AdaptiveAvgPool2d-42            [-1, 128, 1, 1]               0
+           Conv2d-43             [-1, 10, 1, 1]           1,280
+================================================================
+Total params: 439,808
+Trainable params: 439,808
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.01
+Forward/backward pass size (MB): 9.63
+Params size (MB): 1.68
+Estimated Total Size (MB): 11.32
+----------------------------------------------------------------
+```
 
 ### Train/Test Performance
 
