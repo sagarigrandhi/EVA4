@@ -1,6 +1,7 @@
 # Session 7 Assignment
 
 ## Objective
+
 Fix the code such that:
 * The code uses GPU.
 * The architecture is C1-C2-C3-C4-O (basically 3 MPs)
@@ -12,20 +13,12 @@ Fix the code such that:
 * Total parameters must be less than 1M.
 
 ## Results
+
 [Assignment File] (https://github.com/sagarigrandhi/EVA4/blob/master/S7/Assignment_7.ipynb)
 
 
-### Parameters and Hyperparameters - 
-* Loss function - Cross-entropy loss
-* Optimizer - SGD
-* Batch size - 128
-* Learning rate - 0.01
-* Weight decay - 0.0003
-* Dropout - None
-* Receptive field - 98
-* Epochs - 10
-* Training Accuracy - 89.70%
-* Validation Accuracy - 87.47%
+### Architecture, Parameters and Hyperparameters:
+Architecture:
 
 Parameters: 439k
 
@@ -88,16 +81,51 @@ Estimated Total Size (MB): 11.32
 ----------------------------------------------------------------
 ```
 
-### Train/Test Performance
+Hyperparameters:
+* Loss function - Cross-entropy loss
+* Optimizer - SGD
+* Batch size - 128
+* Learning rate - 0.01
+* Weight decay - 0.0003
+* Dropout - None
+* Receptive field - 98
+* Epochs - 10
+* Training Accuracy - 89.70%
+* Validation Accuracy - 87.47%
 
 ### Receptive Field
 
+### Train/Test Performance
+
+Test Accuracy: 86-88%
+```
+Epoch : 10/10, Batch_id : 390, Training Loss : 0.2300,  Training Accuracy : 90.06%: 100%|██████████| 391/391 [00:46<00:00,  8.48it/s]
+
+Test Loss : 0.379, Test Accuracy : 8688/10000 (86.88%)
+```
+
 ### Loss and Accuracy
+![Test Loss and Accuracy](https://github.com/sagarigrandhi/EVA4/blob/master/S7/Results/cifar10_test_loss_accuracy.png)
 
 ### Predictions
+![Predictions](https://github.com/sagarigrandhi/EVA4/blob/master/S7/Results/cifar10_predicted_images.png)
 
 ### Misclassified Images
+![Misclassified Images](https://github.com/sagarigrandhi/EVA4/blob/master/S7/Results/cifar10_misclassified_images.png)
 
 ### Class-wise Accuracy
+```
+Accuracy of plane : 90 %
+Accuracy of   car : 100 %
+Accuracy of  bird : 85 %
+Accuracy of   cat : 79 %
+Accuracy of  deer : 82 %
+Accuracy of   dog : 85 %
+Accuracy of  frog : 96 %
+Accuracy of horse : 89 %
+Accuracy of  ship : 94 %
+Accuracy of truck : 93 %
+```
 
 ## Conclusion
+By using extensive data augmentation techniques and increasing the number of epochs the accuracy can be increased further.
