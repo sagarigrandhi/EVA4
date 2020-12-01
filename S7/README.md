@@ -18,7 +18,12 @@ Fix the code such that:
 
 
 ### Architecture, Parameters and Hyperparameters:
-Architecture:
+
+Architecture: No Fully Connected Layer, Bias is not included.
+```
+INPUT -> [[CONV(k=3,s=1,p=1) -> BN -> RELU]*3] -> [CONV(k=1,s=1,p=0) -> BN -> RELU] -> POOL(2*2)] -> [[CONV(k=3,s=1,p=1) -> BN -> RELU] -> [CONV(k=3,s=1,p=2,d=2) -> BN -> RELU] -> [CONV(k=1,s=1,p=0) -> BN -> RELU] -> POOL(2*2)] -> [[CONV(k=3,s=1,p=1) -> BN -> RELU]*2 -> [[CONV(k=3,s=1,p=1,g=nin) -> BN -> RELU] -> POOL(2*2)] -> [CONV(k=3,s=1,p=1) -> BN -> RELU]] -> GAP -> [CONV(k=1,s=1,p=0]
+```
+
 
 Parameters: 439k
 
