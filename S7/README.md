@@ -141,7 +141,7 @@ Test Loss : 0.379, Test Accuracy : 8688/10000 (86.88%)
 ### Misclassified Images
 ![Misclassified Images](https://github.com/sagarigrandhi/EVA4/blob/master/S7/Results/cifar10_misclassified_images.png)
 
-### Class-wise Accuracy
+### Class-Wise Accuracy
 ```
 Accuracy of plane : 90 %
 Accuracy of   car : 100 %
@@ -156,4 +156,5 @@ Accuracy of truck : 93 %
 ```
 
 ## Conclusion
-
+* Achieved a test accuracy of ~87% in just 10 epochs and 80+ accuracy after 6th epoch with 439K parameters and a maximum RF of 98. By varying the number of epochs or number of parameters, accuracy can be improved.
+* Random rotation and random horizontal flip were used to achieve the best test accuracy. By using additional data augmentation strategies, acccuracy can be improved.
